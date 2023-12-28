@@ -10,7 +10,7 @@ public class DynamicHTMLTablePageObject {
 
 	/**
 	 * DECORATION OF DYNAMICHTMLTABLEPAGE WITH DRIVER USING PAGEFACTORY
-	 * 
+	 *
 	 * @param driver
 	 */
 	public DynamicHTMLTablePageObject(WebDriver driver) {
@@ -19,7 +19,7 @@ public class DynamicHTMLTablePageObject {
 
 	/**
 	 * RETURNS THE DECORATED DYNAMICHTMLTABLEPAGE
-	 * 
+	 *
 	 * @return dynamicHTMLTablePage
 	 */
 	public DynamicHTMLTablePage getDynamicHTMLTablePage() {

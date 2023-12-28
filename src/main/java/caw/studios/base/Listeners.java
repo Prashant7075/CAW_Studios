@@ -21,7 +21,7 @@ public class Listeners implements ITestListener {
 	ExtentTest test;
 	WebDriver driver;
 	ExtentReports extent = ExtentReporterNG.getReportObject();
-	ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
+	ThreadLocal<ExtentTest> extentTest = new ThreadLocal<>();
 
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -86,7 +86,7 @@ public class Listeners implements ITestListener {
 
 	/**
 	 * CAPTURES THE SCREENSHOT AND RETURNS IT AS AN FILE
-	 * 
+	 *
 	 * @param testCaseName
 	 * @param driver
 	 * @return

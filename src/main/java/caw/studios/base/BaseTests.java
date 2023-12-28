@@ -30,7 +30,7 @@ import io.appium.java_client.service.local.flags.GeneralServerFlag;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTests extends CommonUtils {
-	public static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
+	public static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 	public static AppiumDriverLocalService service;
 	public static UiAutomator2Options options;
 	public static XCUITestOptions safari;
@@ -103,7 +103,7 @@ public class BaseTests extends CommonUtils {
 					WebDriverManager.chromedriver().setup();
 					setDownloadsPath = (System.getProperty("user.dir") + "\\downloads");
 					System.setProperty("webdriver.chrome.download.default_directory", setDownloadsPath);
-					HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+					HashMap<String, Object> chromePrefs = new HashMap<>();
 					chromePrefs.put("profile.default_content.settings.popups", 0);
 					chromePrefs.put("download.default_directory", setDownloadsPath);
 					ChromeOptions options = new ChromeOptions();
@@ -127,7 +127,7 @@ public class BaseTests extends CommonUtils {
 					WebDriverManager.edgedriver().setup();
 					setDownloadsPath = (System.getProperty("user.dir") + "\\downloads");
 					System.setProperty("webdriver.edge.download.default_directory", setDownloadsPath);
-					HashMap<String, Object> edgePrefs = new HashMap<String, Object>();
+					HashMap<String, Object> edgePrefs = new HashMap<>();
 					edgePrefs.put("profile.default_content.settings.popups", 0);
 					edgePrefs.put("download.default_directory", setDownloadsPath);
 					EdgeOptions options = new EdgeOptions();

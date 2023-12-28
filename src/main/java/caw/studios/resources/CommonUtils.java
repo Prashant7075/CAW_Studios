@@ -12,7 +12,7 @@ public class CommonUtils {
 
 	/**
 	 * IMLICIT WAIT
-	 * 
+	 *
 	 * @param driver
 	 * @param timeInSeconds
 	 */
@@ -22,7 +22,7 @@ public class CommonUtils {
 
 	/**
 	 * IMLICIT WAIT THREADLOCAL
-	 * 
+	 *
 	 * @param driver
 	 * @param timeInSeconds
 	 */
@@ -32,7 +32,7 @@ public class CommonUtils {
 
 	/**
 	 * WAIT UNTIL THE ELEMENT GETS CLICKABLE
-	 * 
+	 *
 	 * @param driver
 	 * @param element
 	 * @param timeInSeconds
@@ -44,7 +44,7 @@ public class CommonUtils {
 
 	/**
 	 * WAIT UNTIL ELEMENT GETS VISIBLE
-	 * 
+	 *
 	 * @param driver
 	 * @param element
 	 * @param timeInSeconds
@@ -56,7 +56,7 @@ public class CommonUtils {
 
 	/**
 	 * CLICK A WEB ELEMENT USING JAVASCRIPTEXECUTOR
-	 * 
+	 *
 	 * @param driver
 	 * @param element
 	 */

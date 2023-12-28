@@ -11,7 +11,7 @@ public class LaunchWebSitePage {
 
 	/**
 	 * A METHOD TO LAUNCH WEBSITE
-	 * 
+	 *
 	 * @param url
 	 */
 	public void launchWebSite(String url) {

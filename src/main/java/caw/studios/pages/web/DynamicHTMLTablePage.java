@@ -31,7 +31,7 @@ public class DynamicHTMLTablePage extends CommonUtils {
 
 	/**
 	 * A METHOD TO INSERT DATA
-	 * 
+	 *
 	 * @param data
 	 * @throws InterruptedException
 	 */
@@ -48,7 +48,7 @@ public class DynamicHTMLTablePage extends CommonUtils {
 
 	/**
 	 * A METHOD TO EXTRACT THE DATA FROM THE TABLE FOR ASSERTIONS
-	 * 
+	 *
 	 * @return tableData
 	 */
 	public Object[][] getTableDataFromApplication() {

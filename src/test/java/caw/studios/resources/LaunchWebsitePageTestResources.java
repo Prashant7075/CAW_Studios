@@ -8,7 +8,6 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
 public class LaunchWebsitePageTestResources {
 	static Scanner scanner;
@@ -41,7 +40,7 @@ public class LaunchWebsitePageTestResources {
 
 	/**
 	 * GET REMOTE WEB DRIVER URL CHROME
-	 * 
+	 *
 	 * @return URL as String
 	 * @throws Exception
 	 */
@@ -49,7 +48,7 @@ public class LaunchWebsitePageTestResources {
 		JSONParser json = new JSONParser();
 		FileReader file = new FileReader(
 				System.getProperty("user.dir") + "//src//test//java//caw//studios//resources//URL.json");
-		Object urlObject = (Object) json.parse(file);
+		Object urlObject = json.parse(file);
 		JSONObject urlJSONObject = (JSONObject) urlObject;
 		JSONObject remoteUrlJSONObject = (JSONObject) urlJSONObject.get("remoteWebDriverURL");
 		String chromeUrl = (String) remoteUrlJSONObject.get("urlChrome");
@@ -59,7 +58,7 @@ public class LaunchWebsitePageTestResources {
 
 	/**
 	 * GET REMOTE WEB DRIVER URL EDGE
-	 * 
+	 *
 	 * @return URL as String
 	 * @throws Exception
 	 */
@@ -67,7 +66,7 @@ public class LaunchWebsitePageTestResources {
 		JSONParser json = new JSONParser();
 		FileReader file = new FileReader(
 				System.getProperty("user.dir") + "//src//test//java//caw//studios//resources//URL.json");
-		Object urlObject = (Object) json.parse(file);
+		Object urlObject = json.parse(file);
 		JSONObject urlJSONObject = (JSONObject) urlObject;
 		JSONObject remoteUrlJSONObject = (JSONObject) urlJSONObject.get("remoteWebDriverURL");
 		String edgeUrl = (String) remoteUrlJSONObject.get("urlEdge");
@@ -77,7 +76,7 @@ public class LaunchWebsitePageTestResources {
 
 	/**
 	 * GET REMOTE WEB DRIVER URL FIREFOX
-	 * 
+	 *
 	 * @return URL as String
 	 * @throws Exception
 	 */
@@ -85,7 +84,7 @@ public class LaunchWebsitePageTestResources {
 		JSONParser json = new JSONParser();
 		FileReader file = new FileReader(
 				System.getProperty("user.dir") + "//src//test//java//caw//studios//resources//URL.json");
-		Object urlObject = (Object) json.parse(file);
+		Object urlObject = json.parse(file);
 		JSONObject urlJSONObject = (JSONObject) urlObject;
 		JSONObject remoteUrlJSONObject = (JSONObject) urlJSONObject.get("remoteWebDriverURL");
 		String foxUrl = (String) remoteUrlJSONObject.get("urlFirefox");
@@ -95,7 +94,7 @@ public class LaunchWebsitePageTestResources {
 
 	/**
 	 * GET GRID URL
-	 * 
+	 *
 	 * @return URL as String
 	 * @throws Exception
 	 */
@@ -103,18 +102,11 @@ public class LaunchWebsitePageTestResources {
 		JSONParser json = new JSONParser();
 		FileReader file = new FileReader(
 				System.getProperty("user.dir") + "//src//test//java//caw//studios//resources//URL.json");
-		Object urlObject = (Object) json.parse(file);
+		Object urlObject = json.parse(file);
 		JSONObject urlJSONObject = (JSONObject) urlObject;
 		JSONObject remoteUrlJSONObject = (JSONObject) urlJSONObject.get("remoteWebDriverURL");
 		String gridUrl = (String) remoteUrlJSONObject.get("gridURL");
 		System.out.println("The remote GRID URL being used is : " + gridUrl);
 		return gridUrl;
-	}
-
-	@Test
-	public void test() throws Exception {
-		readURLJSON();
-		getRemoteWebDriverUrlFirefox();
-		getGridUrl();
 	}
 }
