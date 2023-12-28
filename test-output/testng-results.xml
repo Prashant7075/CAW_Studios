@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-28T13:05:58 IST" name="DynamicHTMLTablePageTest" finished-at="2023-12-28T13:06:11 IST" duration-ms="12563">
+  <suite started-at="2023-12-28T14:50:17 IST" name="LaunchWebSitePageTest" finished-at="2023-12-28T14:50:27 IST" duration-ms="10107">
     <groups>
     </groups>
-    <test started-at="2023-12-28T13:05:58 IST" name="DynamicHTMLTablePageTest-Chrome" finished-at="2023-12-28T13:06:11 IST" duration-ms="12563">
+    <test started-at="2023-12-28T14:50:17 IST" name="LaunchWebSitePageTest-Chrome" finished-at="2023-12-28T14:50:27 IST" duration-ms="10041">
       <class name="caw.studios.testcases.web.LaunchWebSitePageTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String)[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@c94fd30]" started-at="2023-12-28T13:05:58 IST" name="initializeDriver" finished-at="2023-12-28T13:06:04 IST" duration-ms="5361" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String)[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@63fbfaeb]" started-at="2023-12-28T14:50:17 IST" name="initializeDriver" finished-at="2023-12-28T14:50:24 IST" duration-ms="6480" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@c94fd30]" started-at="2023-12-28T13:06:04 IST" name="launchWebsite" finished-at="2023-12-28T13:06:04 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@63fbfaeb]" started-at="2023-12-28T14:50:24 IST" name="launchWebsite" finished-at="2023-12-28T14:50:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="launchWebSiteFunctionalityCheck(java.lang.String)[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@c94fd30]" started-at="2023-12-28T13:06:04 IST" name="launchWebSiteFunctionalityCheck" data-provider="URL" finished-at="2023-12-28T13:06:08 IST" duration-ms="3898" status="PASS">
+        <test-method signature="launchWebSiteFunctionalityCheck(java.lang.String)[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@63fbfaeb]" started-at="2023-12-28T14:50:24 IST" name="launchWebSiteFunctionalityCheck" data-provider="URL" finished-at="2023-12-28T14:50:27 IST" duration-ms="3068" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,36 +38,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebSiteFunctionalityCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@c94fd30]" started-at="2023-12-28T13:06:11 IST" name="tearDown" finished-at="2023-12-28T13:06:11 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@63fbfaeb]" started-at="2023-12-28T14:50:27 IST" name="tearDown" finished-at="2023-12-28T14:50:27 IST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- caw.studios.testcases.web.LaunchWebSitePageTest -->
-      <class name="caw.studios.testcases.web.DynamicHTMLTablePageTest">
-        <test-method is-config="true" signature="launchDynamicHTMLTablePage()[pri:0, instance:caw.studios.testcases.web.DynamicHTMLTablePageTest@29526c05]" started-at="2023-12-28T13:06:08 IST" name="launchDynamicHTMLTablePage" finished-at="2023-12-28T13:06:08 IST" duration-ms="36" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchDynamicHTMLTablePage -->
-        <test-method signature="inputDataFunctionalityCheck(java.lang.Object)[pri:0, instance:caw.studios.testcases.web.DynamicHTMLTablePageTest@29526c05]" started-at="2023-12-28T13:06:08 IST" name="inputDataFunctionalityCheck" data-provider="inputData" finished-at="2023-12-28T13:06:11 IST" duration-ms="2449" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[{"gender":"male","name":"Bob","age":20},{"gender":"male","name":"George","age":42},{"gender":"female","name":"Sara","age":42},{"gender":"male","name":"Conor","age":40},{"gender":"female","name":"Jennifer","age":42}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inputDataFunctionalityCheck -->
-      </class> <!-- caw.studios.testcases.web.DynamicHTMLTablePageTest -->
-    </test> <!-- DynamicHTMLTablePageTest-Chrome -->
-    <test started-at="2023-12-28T13:05:58 IST" name="DynamicHTMLTablePageTest-Edge" finished-at="2023-12-28T13:06:11 IST" duration-ms="12513">
+    </test> <!-- LaunchWebSitePageTest-Chrome -->
+    <test started-at="2023-12-28T14:50:17 IST" name="LaunchWebSitePageTest-Edge" finished-at="2023-12-28T14:50:27 IST" duration-ms="10107">
       <class name="caw.studios.testcases.web.LaunchWebSitePageTest">
-        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String)[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@29a0cdb]" started-at="2023-12-28T13:05:58 IST" name="initializeDriver" finished-at="2023-12-28T13:06:04 IST" duration-ms="5773" status="PASS">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String,java.lang.String)[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@2e6a5539]" started-at="2023-12-28T14:50:17 IST" name="initializeDriver" finished-at="2023-12-28T14:50:23 IST" duration-ms="5528" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[Edge]]>
               </value>
             </param>
             <param index="1">
@@ -79,11 +62,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@29a0cdb]" started-at="2023-12-28T13:06:04 IST" name="launchWebsite" finished-at="2023-12-28T13:06:04 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@2e6a5539]" started-at="2023-12-28T14:50:23 IST" name="launchWebsite" finished-at="2023-12-28T14:50:23 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method signature="launchWebSiteFunctionalityCheck(java.lang.String)[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@29a0cdb]" started-at="2023-12-28T13:06:04 IST" name="launchWebSiteFunctionalityCheck" data-provider="URL" finished-at="2023-12-28T13:06:08 IST" duration-ms="3566" status="PASS">
+        <test-method signature="launchWebSiteFunctionalityCheck(java.lang.String)[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@2e6a5539]" started-at="2023-12-28T14:50:23 IST" name="launchWebSiteFunctionalityCheck" data-provider="URL" finished-at="2023-12-28T14:50:27 IST" duration-ms="3956" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,28 +77,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebSiteFunctionalityCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@29a0cdb]" started-at="2023-12-28T13:06:11 IST" name="tearDown" finished-at="2023-12-28T13:06:11 IST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:caw.studios.testcases.web.LaunchWebSitePageTest@2e6a5539]" started-at="2023-12-28T14:50:27 IST" name="tearDown" finished-at="2023-12-28T14:50:27 IST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- caw.studios.testcases.web.LaunchWebSitePageTest -->
-      <class name="caw.studios.testcases.web.DynamicHTMLTablePageTest">
-        <test-method is-config="true" signature="launchDynamicHTMLTablePage()[pri:0, instance:caw.studios.testcases.web.DynamicHTMLTablePageTest@32a68f4f]" started-at="2023-12-28T13:06:08 IST" name="launchDynamicHTMLTablePage" finished-at="2023-12-28T13:06:08 IST" duration-ms="36" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchDynamicHTMLTablePage -->
-        <test-method signature="inputDataFunctionalityCheck(java.lang.Object)[pri:0, instance:caw.studios.testcases.web.DynamicHTMLTablePageTest@32a68f4f]" started-at="2023-12-28T13:06:08 IST" name="inputDataFunctionalityCheck" data-provider="inputData" finished-at="2023-12-28T13:06:11 IST" duration-ms="2426" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[{"gender":"male","name":"Bob","age":20},{"gender":"male","name":"George","age":42},{"gender":"female","name":"Sara","age":42},{"gender":"male","name":"Conor","age":40},{"gender":"female","name":"Jennifer","age":42}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inputDataFunctionalityCheck -->
-      </class> <!-- caw.studios.testcases.web.DynamicHTMLTablePageTest -->
-    </test> <!-- DynamicHTMLTablePageTest-Edge -->
-  </suite> <!-- DynamicHTMLTablePageTest -->
+    </test> <!-- LaunchWebSitePageTest-Edge -->
+  </suite> <!-- LaunchWebSitePageTest -->
 </testng-results>
