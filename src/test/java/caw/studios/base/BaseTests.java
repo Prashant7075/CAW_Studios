@@ -46,16 +46,16 @@ public class BaseTests extends CommonUtils {
 		if (platform != null) {
 			if (platform.equalsIgnoreCase("mobile")) {
 				if (browserName.equalsIgnoreCase("chromeMobile")) {
-					options = new UiAutomator2Options().setBuildToolsVersion("28.0.3").setDeviceName("MOTOX4")
-							.setUdid("192.168.0.126:5555").setPlatformName("Android").eventTimings();
+					options = new UiAutomator2Options().setBuildToolsVersion("EnterBuildToolVersion")
+							.setDeviceName("EnterDeviceName").setUdid("EnterUDIDNumber").setPlatformName("Android")
+							.eventTimings();
 					options.setPlatformVersion("9");
 					options.setCapability(CapabilityType.BROWSER_NAME, "chrome");
-					options.setUnlockType("pin").setUnlockKey("725267852");
+					options.setUnlockType("pin").setUnlockKey("EnterYourMobilePin");
 					options.setCapability("appium:automationName", "UiAutomator2");
 					options.setCapability("appium:chromedriverExecutable",
 							"C:\\Users\\PrashantK\\OneDrive\\Desktop\\GRID\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");
 					options.setCapability("appium:newCommandTimeout", 20);
-					setDownloadsPath = (System.getProperty("user.dir") + "\\certificates&invoices");
 					System.setProperty("webdriver.chrome.download.default_directory", setDownloadsPath);
 					ChromeOptions chromeOptions = new ChromeOptions();
 					chromeOptions.setPlatformName("Android");
