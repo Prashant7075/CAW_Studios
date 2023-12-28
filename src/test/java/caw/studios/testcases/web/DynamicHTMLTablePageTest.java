@@ -30,6 +30,7 @@ public class DynamicHTMLTablePageTest extends BaseTests {
 	@Test(dataProvider = "inputData", dataProviderClass = InputDataResources.class)
 	public void inputDataFunctionalityCheck(Object data) throws InterruptedException, IOException, ParseException {
 		softAssert = new SoftAssert();
+		System.out.println("The set of data to be entered is : " + data.toString());
 		dynamicHTMLTablePage.insertData(data);
 		Object[][] tableData = dynamicHTMLTablePage.getTableDataFromApplication();
 		JSONArray jsonInput = (JSONArray) InputDataResources.readInputJSONData()[0];

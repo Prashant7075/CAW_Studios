@@ -20,4 +20,14 @@
 		</classes>
 	</test> <!-- DynamicHTMLTablePageTest-Chrome -->
 
+	<test thread-count="5" name="DynamicHTMLTablePageTest-Edge"
+		parallel="none" preserve-order="true" enabled="true">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="caw.studios.testcases.web.LaunchWebSitePageTest" />
+			<class
+				name="caw.studios.testcases.web.DynamicHTMLTablePageTest" />
+		</classes>
+	</test> <!-- DynamicHTMLTablePageTest-Edge -->
+
 </suite> <!-- DynamicHTMLTablePageTest -->

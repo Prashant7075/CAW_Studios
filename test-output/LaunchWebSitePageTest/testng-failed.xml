@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [LaunchWebSitePageTest]" guice-stage="DEVELOPMENT">
+  <parameter name="platform" value="web"/>
+  <listeners>
+    <listener class-name="caw.studios.base.Listeners"/>
+    <listener class-name="caw.studios.base.RetryListeners"/>
+  </listeners>
+  <test thread-count="5" name="LaunchWebSitePageTest-Edge(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="caw.studios.testcases.web.LaunchWebSitePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchWebsite"/>
+          <include name="launchWebSiteFunctionalityCheck"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- caw.studios.testcases.web.LaunchWebSitePageTest -->
+    </classes>
+  </test> <!-- LaunchWebSitePageTest-Edge(failed) -->
+  <test thread-count="5" name="LaunchWebSitePageTest-Chrome(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="caw.studios.testcases.web.LaunchWebSitePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchWebsite"/>
+          <include name="launchWebSiteFunctionalityCheck"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- caw.studios.testcases.web.LaunchWebSitePageTest -->
+    </classes>
+  </test> <!-- LaunchWebSitePageTest-Chrome(failed) -->
+</suite> <!-- Failed suite [LaunchWebSitePageTest] -->
