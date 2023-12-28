@@ -1,0 +1,11 @@
+{
+	"URL": {
+		"url": "https://testpages.herokuapp.com/styled/tag/dynamic-table.html"
+	},
+	"remoteWebDriverURL": {
+		"urlChrome": "http://192.168.189.1:4444",
+		"urlEdge": "http://192.168.189.1:4444",
+		"urlFirefox": "http://192.168.189.1:4444",
+		"gridURL": "http://192.168.189.1:4444"
+	}
+}
